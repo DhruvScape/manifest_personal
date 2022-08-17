@@ -8,9 +8,11 @@
 
     <remove-project name="android_hardware_qcom_wlan" />
     <remove-project name="android_vendor_qcom_opensource_vibrator" />
+    <remove-project name="android_vendor_qcom_opensource_power" />
     <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf" remote="dhruv" revision="display-msm8996-s" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf" remote="dhruv" revision="media-msm8996-s" clone-depth="1" />
     <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf" remote="dhruv" revision="audio-msm8996-s" clone-depth="1" />
     <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="dhruvscape" revision="12" clone-depth="1" />
     <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="dhruvscape" revision="arrow-12.1" clone-depth="1" />
+    <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="dhruvscape" revision="arrow-12.1" clone-depth="1" />
 </manifest>
